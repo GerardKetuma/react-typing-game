@@ -1,0 +1,39 @@
+.layoutWrapper {
+  width: 100%;
+  padding: 4rem 0.75rem 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .layoutWrapper {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .layoutWrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .layoutWrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .layoutWrapper {
+    max-width: 1140px;
+  }
+}
+
+.heading {
+  color: #334155;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.8rem;
+}
